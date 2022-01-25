@@ -1,0 +1,72 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+.bg-rose {
+	background-color: #df57bc;
+}
+
+
+.bg-fuchsia {
+	background-color: #FF00FF;
+}
+
+.bg-black {
+	background-color: #000000;
+}
+
+.bg-dark-violet {
+	background-color: #371e30;
+}
+
+.font-supermercado-one {
+	font-family: 'Supermercado One', cursive;
+}
+
+.bg-image1 {
+	background-image: url(./images/web-developer.jpg);
+}
+
+.font-mochi {
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+.font-open-sans {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bg-violet {
+	background-color: #A03E99;
+}
+
+.bg-mauvelous {
+	background-color: #F59CA9;
+}
+
+.image-size {
+	width: 150px;
+	height: 150px;
+
+}
+
+.font-size-1 {
+	font-size: 1.3rem;
+
+}
+
+.text-black {
+	color: black;
+}
+
+.carousel-text-color {
+	color: black	;
+
+}
+
+.carousel-caption h5 {
+	color: #A03E99;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: 'Mochiy Pop P One', sans-serif;
+
+}
