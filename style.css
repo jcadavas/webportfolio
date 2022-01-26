@@ -25,7 +25,7 @@ html {
 }
 
 .bg-image1 {
-	background-image: url(./images/web-developer.jpg);
+	background-image: url(./images/coding1.jpg);
 }
 
 .font-mochi {
@@ -64,9 +64,40 @@ html {
 }
 
 .carousel-caption h5 {
-	color: #A03E99;
-	font-size: 2rem;
+	color: #2f2f2f;
+	font-size: 1rem;
 	font-weight: bold;
-	font-family: 'Mochiy Pop P One', sans-serif;
+	font-family: 'Space Mono', monospace;
 
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.bg-dark-electric-blue {
+	background-color: #637081;
+}
+
+.bg-frost {
+	background-color: #7c98b3;
+}
+
+.bg-jet {
+	background-color: #2f2f2f;
+}
+.bg-oxford-blue {
+	background-color: #030027;
+}
+
+.bg-dim-gray {
+	background-color: #616163;
+}
+
+.bg-gray-web {
+	background-color: #808080;
+}
+
+.font-space-mono {
+	font-family: 'Space Mono', monospace;
 }
