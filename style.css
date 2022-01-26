@@ -35,12 +35,6 @@ html {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.bg-violet {
-	background-color: #A03E99;
-}
-
-.bg-mauvelous {
-	background-color: #F59CA9;
 }
 
 .image-size {
@@ -55,11 +49,7 @@ html {
 }
 
 .text-black {
-	color: black;
-}
-
-.carousel-text-color {
-	color: black	;
+	color: black
 
 }
 
