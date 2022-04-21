@@ -2,92 +2,70 @@ html {
 	scroll-behavior: smooth;
 }
 
-
-.bg-rose {
-	background-color: #df57bc;
+.bg-cover {
+	background-image: url(./images/cover.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-
-.bg-fuchsia {
-	background-color: #FF00FF;
+.m-header {
+	padding: 2rem;
+	margin-right: 10rem;
+	margin-top: 2rem;
 }
 
-.bg-black {
-	background-color: #000000;
+.bg-trans {
+	background-color: rgba(187,187,201,0.2);
+	background-size: cover;
 }
 
-.bg-dark-violet {
-	background-color: #371e30;
+.head-button {
+	display: inline-flex;
+    width: auto;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    vertical-align: middle;
+    padding: 0 1.75rem;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 2rem;
+    direction: var(--site-language-direction);
+    /*transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;*/
+    box-shadow: inset 0 0 0 0 rgba(187,187,201,0.2);
+    transition: ease-out 0.3s;
 }
 
-.font-supermercado-one {
-	font-family: 'Supermercado One', cursive;
-}
-
-.bg-image1 {
-	background-image: url(./images/coding1.jpg);
-}
-
-.font-mochi {
-	font-family: 'Mochiy Pop P One', sans-serif;
-}
-.font-open-sans {
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-}
-
-.image-size {
-	width: 150px;
-	height: 150px;
-
-}
-
-.font-size-1 {
-	font-size: 1.3rem;
+.head-button:hover {
+	box-shadow: inset 200px 0 0 0 rgba(187,187,201,0.2);
+	/*background-color: gray;*/
 
 }
 
-.text-black {
-	color: black
+.details-area input {
+	width: 100%;
+	background: white;
+	border-radius: 40px;
+	padding: 0.5rem;
+}
+
+.details-area textarea {
+	width: 100%;
+	background: white;
+	border-radius: 40px;
+	padding: 0.5rem;
 
 }
 
-.carousel-caption h5 {
-	color: #2f2f2f;
-	font-size: 1rem;
-	font-weight: bold;
-	font-family: 'Space Mono', monospace;
+/*.fa {
+  padding: 2rem;
+  font-size: 4rem;
+  width: 6rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 10rem;*/
 
-}
-
-.navbar-dark .navbar-toggler-icon {
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.bg-dark-electric-blue {
-	background-color: #637081;
-}
-
-.bg-frost {
-	background-color: #7c98b3;
-}
-
-.bg-jet {
-	background-color: #2f2f2f;
-}
-.bg-oxford-blue {
-	background-color: #030027;
-}
-
-.bg-dim-gray {
-	background-color: #616163;
-}
-
-.bg-gray-web {
-	background-color: #808080;
-}
-
-.font-space-mono {
-	font-family: 'Space Mono', monospace;
-}
+  .fa {
+  	font-size: 2rem;
+  }
